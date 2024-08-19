@@ -39,4 +39,21 @@ final class RomanNumeralCalculatorUITests: XCTestCase {
             }
         }
     }
+    
+    func testAddOnePlusOne() {
+        
+        let app = XCUIApplication()
+        let iButton = app.buttons["I"]
+        let calculatedlabel = app/*@START_MENU_TOKEN@*/.staticTexts["calculated_value"]/*[[".staticTexts[\"II\"]",".staticTexts[\"calculated_value\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/
+        
+        // tap "I"
+        iButton.tap()
+        XCTAssertEqual(calculatedlabel.label, "I")
+        // tap "+"
+        app/*@START_MENU_TOKEN@*/.staticTexts["+"]/*[[".buttons[\"+\"].staticTexts[\"+\"]",".staticTexts[\"+\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        // tap "I"
+        iButton.tap()
+        XCTAssertEqual(calculatedlabel.label, "II")
+        
+    }
 }

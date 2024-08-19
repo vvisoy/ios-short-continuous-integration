@@ -20,6 +20,34 @@
                ReferencedContainer = "container:RomanNumeralCalculator.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E77726E82C70943500A3F125"
+               BuildableName = "RomanNumeralCalculatorTests.xctest"
+               BlueprintName = "RomanNumeralCalculatorTests"
+               ReferencedContainer = "container:RomanNumeralCalculator.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E77726F52C70948400A3F125"
+               BuildableName = "RomanNumeralCalculatorUITests.xctest"
+               BlueprintName = "RomanNumeralCalculatorUITests"
+               ReferencedContainer = "container:RomanNumeralCalculator.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
